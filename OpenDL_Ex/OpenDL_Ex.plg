@@ -1,0 +1,252 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenDL_Ex - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Intermediate\OpenDL_Ex\Release/OpenDL_Ex.res" /i ".\..\Intermediate\OpenDL_Ex\Release" /d "NDEBUG" "E:\lb\OpenDL\OpenDL\OpenDL_Ex\OpenDL_Ex.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP280.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /I "..\OpenDL\Output\Include" /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_ODL_EX" /D "_AFXDLL" /D "_MBCS" /FR"..\Intermediate\OpenDL_Ex\Release/" /Fp"..\Intermediate\OpenDL_Ex\Release/OpenDL_Ex.pch" /Yu"stdafx.h" /Fo"..\Intermediate\OpenDL_Ex\Release/" /Fd"..\Intermediate\OpenDL_Ex\Release/" /c 
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Button.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CheckButton.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CrossLine.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_DefaultToolbar.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_SafeArea.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_TextArea.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Toolbar.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_ZoomFrame.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\OpenDL_Ex.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\ResourceLoader.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_DiagramPreview.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP280.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP281.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /I "..\OpenDL\Output\Include" /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_ODL_EX" /D "_AFXDLL" /D "_MBCS" /FR"..\Intermediate\OpenDL_Ex\Release/" /Fp"..\Intermediate\OpenDL_Ex\Release/OpenDL_Ex.pch" /Yc"stdafx.h" /Fo"..\Intermediate\OpenDL_Ex\Release/" /Fd"..\Intermediate\OpenDL_Ex\Release/" /c 
+"E:\lb\OpenDL\OpenDL\OpenDL_Ex\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP281.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP282.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"..\Intermediate\OpenDL_Ex\Release/OpenDL_Ex.pdb" /debug /machine:IX86 /out:".\Output\DLL\OpenDL_Ex.dll" /implib:"./Output/Lib/OpenDL_Ex.lib" /pdbtype:sept /libpath:"../OpenDL/Output/lib" /opt:ref /opt:icf 
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Button.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_CheckButton.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Coordinate.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_CrossLine.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_CurveBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_DefaultToolbar.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Histogram.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Label.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_SafeArea.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_TextArea.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Toolbar.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_ZoomFrame.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\OpenDL_Ex.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ResourceLoader.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\stdafx.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\OpenDL_Ex.res
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_DiagramPreview.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP282.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxv_w32.h(119) : warning C4005: '_WIN32_WINDOWS' : macro redefinition
+        E:\lb\OpenDL\OpenDL\OpenDL_Ex\stdafx.h(22) : see previous definition of '_WIN32_WINDOWS'
+..\OpenDL\Output\Include\./Base/ODL_Vector2f.h(52) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+..\OpenDL\Output\Include\./Tools/ODL_Tools.h(23) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+..\OpenDL\Output\Include\./Tools/ODL_Tools.h(24) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+..\OpenDL\Output\Include\./Tools/ODL_Tools.h(25) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+..\OpenDL\Output\Include\./Tools/ODL_Tools.h(26) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+Compiling...
+ODLEx_Element_Button.cpp
+ODLEx_Element_CheckButton.cpp
+ODLEx_Element_Coordinate.cpp
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(142) : warning C4244: 'initializing' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(153) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(154) : warning C4244: 'argument' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(157) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(158) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(163) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(164) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(176) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(183) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(194) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(195) : warning C4244: 'argument' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(199) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(200) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(204) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(205) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(218) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(245) : warning C4244: 'initializing' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(256) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(257) : warning C4244: 'argument' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(261) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(262) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(268) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(269) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(274) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(284) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(295) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(296) : warning C4244: 'argument' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(299) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(300) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(306) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(307) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(313) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(480) : warning C4244: '=' : conversion from 'unsigned long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(510) : warning C4018: '>=' : signed/unsigned mismatch
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(699) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(705) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(717) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(729) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(741) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Coordinate.cpp(871) : warning C4244: 'return' : conversion from 'float' to 'long', possible loss of data
+..\OpenDL\Output\Include\./Base/ODL_ListT.h(118) : warning C4018: '==' : signed/unsigned mismatch
+        ..\OpenDL\Output\Include\./Base/ODL_ListT.h(106) : while compiling class-template member function 'struct __POSITION *__thiscall CODL_ListT<struct _CoordinateStatus>::GetPosByIndex(unsigned long)'
+ODLEx_Element_CrossLine.cpp
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CrossLine.cpp(67) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CrossLine.cpp(68) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+ODLEx_Element_CurveBase.cpp
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(110) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(113) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(267) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(268) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(307) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(308) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(388) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(389) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(411) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_CurveBase.cpp(412) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+ODLEx_Element_DefaultToolbar.cpp
+ODLEx_Element_Histogram.cpp
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(45) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(46) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(60) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(61) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(83) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(94) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(95) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(185) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Histogram.cpp(188) : warning C4244: 'initializing' : conversion from 'float' to 'long', possible loss of data
+ODLEx_Element_Label.cpp
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(340) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(340) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(341) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(341) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(351) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(352) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(353) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_Label.cpp(354) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+ODLEx_Element_SafeArea.cpp
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_SafeArea.cpp(111) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_SafeArea.cpp(129) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_SafeArea.cpp(148) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL_Ex\Elements\ODLEx_Element_SafeArea.cpp(168) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+ODLEx_Element_TextArea.cpp
+ODLEx_Element_Toolbar.cpp
+ODLEx_Element_ZoomFrame.cpp
+OpenDL_Ex.cpp
+ResourceLoader.cpp
+ODLEx_Element_DiagramPreview.cpp
+Generating Code...
+Linking...
+   Creating library ./Output/Lib/OpenDL_Ex.lib and object ./Output/Lib/OpenDL_Ex.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP286.tmp" with contents
+[
+/nologo /o"..\Intermediate\OpenDL_Ex\Release/OpenDL_Ex.bsc" 
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\stdafx.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Button.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_CheckButton.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Coordinate.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_CrossLine.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_CurveBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_DefaultToolbar.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Histogram.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Label.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_SafeArea.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_TextArea.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_Toolbar.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_ZoomFrame.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\OpenDL_Ex.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ResourceLoader.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL_Ex\Release\ODLEx_Element_DiagramPreview.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP286.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP287.bat" with contents
+[
+@echo off
+auto_copy.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP287.bat"
+
+..\OpenDL\Output\DLL\OpenDL.dll
+..\OpenDL\Output\DLL\OpenDL.pdb
+..\OpenDL\Output\DLL\OpenDL_D.dll
+..\OpenDL\Output\DLL\OpenDL_D.ilk
+..\OpenDL\Output\DLL\OpenDL_D.pdb
+..\OpenDL\Output\Include\ODL_Include.h
+..\OpenDL\Output\Include\Base\GlobalDefine.h
+..\OpenDL\Output\Include\Base\ODL_ListT.h
+..\OpenDL\Output\Include\Base\ODL_ObjBase.h
+..\OpenDL\Output\Include\Base\ODL_ObjListBase.h
+..\OpenDL\Output\Include\Base\ODL_Vector2f.h
+..\OpenDL\Output\Include\Canvas\ODL_CanvasBase.h
+..\OpenDL\Output\Include\Canvas\ODL_GDICanvas.h
+..\OpenDL\Output\Include\Elements\ODL_ElementBase.h
+..\OpenDL\Output\Include\Elements\ODL_OverlayElementBase.h
+..\OpenDL\Output\Include\Painter\ODL_GDIPainter.h
+..\OpenDL\Output\Include\Painter\ODL_Painter.h
+..\OpenDL\Output\Include\Resource\ODL_Brush.h
+..\OpenDL\Output\Include\Resource\ODL_Font.h
+..\OpenDL\Output\Include\Resource\ODL_Pen.h
+..\OpenDL\Output\Include\Resource\ODL_ResourceManager.h
+..\OpenDL\Output\Include\Tools\ODL_Tools.h
+..\OpenDL\Output\Include\View\ODL_View.h
+..\OpenDL\Output\Include\View\ODL_ViewBase.h
+..\OpenDL\Output\Lib\OpenDL.exp
+..\OpenDL\Output\Lib\OpenDL.lib
+..\OpenDL\Output\Lib\OpenDL_D.exp
+..\OpenDL\Output\Lib\OpenDL_D.lib
+复制了 28 个文件
+.\Output\DLL\OpenDL_Ex.dll
+.\Output\DLL\OpenDL_Ex_d.dll
+.\Output\DLL\OpenDL_Ex_d.ilk
+.\Output\DLL\OpenDL_Ex_d.pdb
+.\Output\Lib\OpenDL_Ex.exp
+.\Output\Lib\OpenDL_Ex.lib
+.\Output\Lib\OpenDL_Ex_d.exp
+.\Output\Lib\OpenDL_Ex_d.lib
+复制了 8 个文件
+已复制         1 个文件。
+.\Elements\ODLEx_Element_Button.h
+.\Elements\ODLEx_Element_CheckButton.h
+.\Elements\ODLEx_Element_Coordinate.h
+.\Elements\ODLEx_Element_CrossLine.h
+.\Elements\ODLEx_Element_CurveBase.h
+.\Elements\ODLEx_Element_DefaultToolbar.h
+.\Elements\ODLEx_Element_DiagramPreview.h
+.\Elements\ODLEx_Element_Histogram.h
+.\Elements\ODLEx_Element_Label.h
+.\Elements\ODLEx_Element_SafeArea.h
+.\Elements\ODLEx_Element_TextArea.h
+.\Elements\ODLEx_Element_Toolbar.h
+.\Elements\ODLEx_Element_ZoomFrame.h
+已复制        13 个文件。
+
+
+
+<h3>Results</h3>
+OpenDL_Ex.dll - 0 error(s), 80 warning(s)
+</pre>
+</body>
+</html>

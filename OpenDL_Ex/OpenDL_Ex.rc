@@ -1,0 +1,142 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\OpenDL_Ex.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,5,1
+ PRODUCTVERSION 1,0,5,1
+ FILEFLAGSMASK 0x37L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "LB"
+            VALUE "CompanyName", "lbhna"
+            VALUE "FileDescription", "开放图表库扩展"
+            VALUE "FileVersion", "1.0.5.1"
+            VALUE "InternalName", "OpenDL_Ex.dll"
+            VALUE "LegalCopyright", "(c) <lbhna>.  All rights reserved."
+            VALUE "OriginalFilename", "OpenDL_Ex.dll"
+            VALUE "ProductName", "开放图表库扩展"
+            VALUE "ProductVersion", "1.0.5.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DRAG_AXIS           ICON                    ".\\RES\\icon1.ico"
+IDI_DRAG_AXIS_X         ICON                    ".\\RES\\drag_axi.ico"
+IDI_DRAG_AXIS_Y         ICON                    ".\\RES\\ico00001.ico"
+IDI_DRAG_DIAGRAM        ICON                    ".\\RES\\ico00002.ico"
+IDI_SCALE_AXIS          ICON                    ".\\RES\\ico00003.ico"
+IDI_SCALE_AXIS_Y        ICON                    ".\\RES\\ico00004.ico"
+IDI_SCALE_AXIS_X        ICON                    ".\\RES\\ico00005.ico"
+IDI_DIAGRAM_MOVEDOWN    ICON                    ".\\res\\ico00006.ico"
+IDI_DIAGRAM_MOVEUP      ICON                    ".\\res\\ico00007.ico"
+IDI_DIAGRAM_MOVELEFT    ICON                    ".\\res\\ico00008.ico"
+IDI_DIAGRAM_MOVERIGHT   ICON                    ".\\res\\ico00009.ico"
+IDI_AUTO_SCROLL         ICON                    ".\\res\\ico00010.ico"
+IDI_VIEW_STYLE          ICON                    "res\\icon3.ico"
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\OpenDL_Ex.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

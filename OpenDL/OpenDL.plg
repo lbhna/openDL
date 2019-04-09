@@ -1,0 +1,188 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenDL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Intermediate\OpenDL\Debug/OpenDL.res" /i ".\..\Intermediate\OpenDL\Debug" /d "_DEBUG" "E:\lb\OpenDL\OpenDL\OpenDL\OpenDL.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /Zp1 /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_ODL_" /D "_AFXDLL" /D "_MBCS" /FR"..\Intermediate\OpenDL\Debug/" /Fp"..\Intermediate\OpenDL\Debug/OpenDL.pch" /Yu"stdafx.h" /Fo"..\Intermediate\OpenDL\Debug/" /Fd"..\Intermediate\OpenDL\Debug/" /GZ /c 
+"E:\lb\OpenDL\OpenDL\OpenDL\Support\MemoryPool.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Resource\ODL_Brush.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Canvas\ODL_CanvasBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Resource\ODL_Font.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Canvas\ODL_GDICanvas.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Painter\ODL_GDIPainter.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Base\ODL_ObjBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Base\ODL_ObjListBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_OverlayElementBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Painter\ODL_Painter.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Resource\ODL_Pen.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Resource\ODL_ResourceManager.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Tools\ODL_Tools.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\Base\ODL_Vector2f.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_View.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_ViewBase.cpp"
+"E:\lb\OpenDL\OpenDL\OpenDL\OpenDL.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP24.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /Zp1 /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_AFXEXT" /D "_WINDLL" /D "_ODL_" /D "_AFXDLL" /D "_MBCS" /FR"..\Intermediate\OpenDL\Debug/" /Fp"..\Intermediate\OpenDL\Debug/OpenDL.pch" /Yc"stdafx.h" /Fo"..\Intermediate\OpenDL\Debug/" /Fd"..\Intermediate\OpenDL\Debug/" /GZ  /GZ /c 
+"E:\lb\OpenDL\OpenDL\OpenDL\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP25.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP26.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:".\Output\DLL\OpenDL_D.pdb" /debug /machine:IX86 /out:".\Output\DLL\OpenDL_D.dll" /implib:"./Output/Lib/OpenDL_D.lib" /pdbtype:sept 
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\MemoryPool.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Brush.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_CanvasBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ElementBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Font.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_GDICanvas.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_GDIPainter.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ObjBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ObjListBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_OverlayElementBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Painter.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Pen.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ResourceManager.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Tools.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Vector2f.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_View.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ViewBase.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\OpenDL.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\stdafx.obj
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\OpenDL.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP26.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+c:\program files\microsoft visual studio\vc98\mfc\include\afxv_w32.h(119) : warning C4005: '_WIN32_WINDOWS' : macro redefinition
+        e:\lb\opendl\opendl\opendl\stdafx.h(22) : see previous definition of '_WIN32_WINDOWS'
+Compiling...
+MemoryPool.cpp
+ODL_Brush.cpp
+ODL_CanvasBase.cpp
+ODL_ElementBase.cpp
+e:\lb\opendl\opendl\opendl\base\odl_vector2f.h(52) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(55) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(55) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(56) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(56) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(56) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(56) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+E:\lb\OpenDL\OpenDL\OpenDL\Elements\ODL_ElementBase.cpp(66) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+ODL_Font.cpp
+ODL_GDICanvas.cpp
+E:\lb\OpenDL\OpenDL\OpenDL\Canvas\ODL_GDICanvas.cpp(36) : warning C4018: '!=' : signed/unsigned mismatch
+E:\lb\OpenDL\OpenDL\OpenDL\Canvas\ODL_GDICanvas.cpp(36) : warning C4018: '!=' : signed/unsigned mismatch
+ODL_GDIPainter.cpp
+ODL_ObjBase.cpp
+ODL_ObjListBase.cpp
+ODL_OverlayElementBase.cpp
+ODL_Painter.cpp
+ODL_Pen.cpp
+ODL_ResourceManager.cpp
+ODL_Tools.cpp
+e:\lb\opendl\opendl\opendl\base\odl_vector2f.h(52) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+e:\lb\opendl\opendl\opendl\tools\odl_tools.h(23) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+e:\lb\opendl\opendl\opendl\tools\odl_tools.h(24) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+e:\lb\opendl\opendl\opendl\tools\odl_tools.h(25) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+e:\lb\opendl\opendl\opendl\tools\odl_tools.h(26) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+ODL_Vector2f.cpp
+e:\lb\opendl\opendl\opendl\base\odl_vector2f.h(52) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+ODL_View.cpp
+E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_View.cpp(30) : warning C4018: '<' : signed/unsigned mismatch
+E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_View.cpp(31) : warning C4018: '<' : signed/unsigned mismatch
+ODL_ViewBase.cpp
+E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_ViewBase.cpp(236) : warning C4018: '<' : signed/unsigned mismatch
+E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_ViewBase.cpp(274) : warning C4018: '>=' : signed/unsigned mismatch
+E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_ViewBase.cpp(396) : warning C4018: '<' : signed/unsigned mismatch
+E:\lb\OpenDL\OpenDL\OpenDL\View\ODL_ViewBase.cpp(494) : warning C4018: '<' : signed/unsigned mismatch
+OpenDL.cpp
+Generating Code...
+Linking...
+   Creating library ./Output/Lib/OpenDL_D.lib and object ./Output/Lib/OpenDL_D.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /o"..\Intermediate\OpenDL\Debug/OpenDL.bsc" 
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\stdafx.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\MemoryPool.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Brush.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_CanvasBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ElementBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Font.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_GDICanvas.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_GDIPainter.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ObjBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ObjListBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_OverlayElementBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Painter.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Pen.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ResourceManager.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Tools.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_Vector2f.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_View.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\ODL_ViewBase.sbr
+\lb\OpenDL\OpenDL\Intermediate\OpenDL\Debug\OpenDL.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.bat" with contents
+[
+@echo off
+auto_copy.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.bat"
+
+子目录或文件 .\Output 已经存在。
+子目录或文件 .\Output\Include 已经存在。
+子目录或文件 .\Output\Include\Base 已经存在。
+子目录或文件 .\Output\Include\Canvas 已经存在。
+子目录或文件 .\Output\Include\Elements 已经存在。
+子目录或文件 .\Output\Include\View 已经存在。
+子目录或文件 .\Output\Include\Painter 已经存在。
+子目录或文件 .\Output\Include\Resource 已经存在。
+子目录或文件 .\Output\Include\Tools 已经存在。
+已复制         1 个文件。
+.\Base\GlobalDefine.h
+.\Base\ODL_ListT.h
+.\Base\ODL_ObjBase.h
+.\Base\ODL_ObjListBase.h
+.\Base\ODL_Vector2f.h
+已复制         5 个文件。
+.\Canvas\ODL_CanvasBase.h
+.\Canvas\ODL_GDICanvas.h
+已复制         2 个文件。
+.\Elements\ODL_ElementBase.h
+.\Elements\ODL_OverlayElementBase.h
+已复制         2 个文件。
+.\View\ODL_View.h
+.\View\ODL_ViewBase.h
+已复制         2 个文件。
+.\Painter\ODL_GDIPainter.h
+.\Painter\ODL_Painter.h
+已复制         2 个文件。
+.\Resource\ODL_Brush.h
+.\Resource\ODL_Font.h
+.\Resource\ODL_Pen.h
+.\Resource\ODL_ResourceManager.h
+已复制         4 个文件。
+.\Tools\ODL_Tools.h
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+OpenDL_D.dll - 0 error(s), 23 warning(s)
+</pre>
+</body>
+</html>
